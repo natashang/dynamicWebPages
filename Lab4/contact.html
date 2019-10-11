@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+<title> Contact Page </title>
+
+<!-- Creates a link to external style sheet style.css -->
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<!-- Internal style sheet for <div> element with id wrapper -->
+
+<style>
+	#wrapper{
+			margin:0 auto;
+			width:85%;
+			background-color:#FFF;
+			border: 1 px solid #878e63;
+			box-shadow: 0 0 10px rgba(12,3,15,0.8);
+	}
+</style>
+
+<body>
+
+	<div id="wrapper">
+
+		<!-- Navigation links to the other local pages -->
+	
+		<nav>
+			<a href="index.html"> Home</a> | 
+			<a href="rooms.html"> Rooms</a> |
+			<a href="http://www.google.com"> Gallery</a> |
+			<a href="contact.html"> Contact Us</a>
+		</nav>
+
+		<!-- Main content of the body -->
+		
+		<main>
+		
+		<h1> Contact Us </h1>
+
+		<img src = "images/map.jpg" alt = "this is a map showing where we are located" 
+		usemap = "#bellingham">
+
+		<map name ="bellingham">
+		<area shape = "circle" coords="322, 218, 20" href = "http://www.google.com"> 
+		</map>
+
+		<br>
+
+		<h2> Personal Data </h2>
+
+		<form action="http://google.com" method="get" name="form1" id="">
+
+			<fieldset>
+				<legend>Personal Data</legend>
+
+				<label> Name: </label>
+				<input type = "text" name = ""> 
+				<br> <br>
+
+				<label> Email: </label> 
+				<input type="Email" name=""> 
+				<br> <br>
+			
+				<label> Phone: </label>
+				<input type = "tel" name= ""> 
+				<br> <br>
+
+
+				<label> Location: </label> 
+				<select>
+					<option> Bellingham </option>
+					<option> Seattle </option>
+				</select> 
+				<br> <br>
+
+				<label> Gender: </label>
+				<input type="radio" name="radio"> Male
+				<input type="radio" name="radio"> Female
+				<br> <br>
+
+				<input type="submit" name="submit">
+
+			</fieldset>
+		</form>
+
+		<h2> Audio </h2>
+
+		<audio controls="controls">
+			<source src="audio/Allemande.mp3" type="audio/mpeg">
+		</audio>
+
+		<hr>
+		</main>
+		
+		<!-- Division section for subscribing with a form input -->
+		
+		<div id="subscribe">
+			<h3> Subscribe Weekly Newsletter </h3>
+			
+			<form>
+				<input type="text" name="" placeholder="Enter Valid Email Address">
+				<input type="submit" name="submit">
+			</form>
+		</div>
+
+		<!-- Footer -->
+
+		<footer>
+			<i> Copyright &copy 2017 Natasha Ng </i>
+			<br><br>
+			
+			<a href="https://www.facebook.com"> Facebook</a> | 
+			<a href="https://www.twitter.com"> Twitter</a> |
+			<a href="http://www.google.com"> Youtube</a> |
+		</footer>
+		
+	</div>
+</body>
+
+</html>
